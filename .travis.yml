@@ -28,4 +28,3 @@ script:
   - node index.js demo
   - cd $TRAVIS_BUILD_DIR/demo; npm i
   - cd $TRAVIS_BUILD_DIR/demo; $TRAVIS_BUILD_DIR/sysconfcpus/bin/sysconfcpus -n 2 npm run build
-  - cd $TRAVIS_BUILD_DIR/demo; $TRAVIS_BUILD_DIR/sysconfcpus/bin/sysconfcpus -n 2 npm run optimize
